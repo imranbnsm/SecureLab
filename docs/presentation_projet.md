@@ -27,7 +27,7 @@ L’infrastructure repose sur un environnement virtualisé segmenté par un pare
 | Zone | Description & Usage |
 | :--- | :--- |
 | **LAN – Réseau interne** | Réseau interne de l’entreprise destiné aux postes de travail des employés et aux serveurs internes (Active Directory, DNS, serveur de fichiers). |
-| **DMZ – Zone démilitarisée** | Zone intermédiaire hébergeant les services exposés vers Internet, notamment le serveur web accessible en HTTP/HTTPS. |
+| **DMZ – Zone démilitarisée** | Zone isolée du réseau interne, destinée à héberger les services nécessitant une exposition vers Internet tout en limitant les impacts d’une compromission. |
 | **WAN – Réseau externe** | Réseau externe représentant Internet. Il permet l’accès aux services exposés de la DMZ et sert de point d’entrée pour les communications externes. |
 
 
@@ -54,4 +54,5 @@ Le projet adopte une double approche pour garantir une sécurité maximale :
 Le projet se concentre volontairement sur des aspects fondamentaux des réseaux et de la cybersécurité. Certaines fonctionnalités avancées (haute disponibilité, cloud, SIEM, messagerie électronique) ne sont pas implémentées afin de conserver un périmètre réaliste et maîtrisé, en adéquation avec un projet académique de niveau licence/master.
 
 > **Note technique :** L'intégralité de ce laboratoire est réalisée en environnement virtualisé, permettant une isolation totale avant le déploiement en production.
+
 
