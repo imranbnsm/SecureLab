@@ -26,6 +26,11 @@ Le réseau WAN représente l’accès à Internet. Il est connecté au pare-feu 
 
 Cette zone inclut également une machine Kali Linux utilisée pour simuler un attaquant externe. Elle permet de réaliser des tests d’intrusion contrôlés sur les services exposés.
 
+> **Note de virtualisation :**  
+> Dans cet environnement virtualisé, le réseau WAN du pare-feu pfSense représente l’Internet ainsi que les réseaux externes.  
+> L’hyperviseur joue le rôle de fournisseur d’accès, ce qui permet de simuler un accès Internet réel sans déployer de routeur physique intermédiaire.
+
+
 ---
 
 ### Réseau LAN – Réseau interne
@@ -69,4 +74,5 @@ Les principes de filtrage appliqués sont les suivants :
 - le trafic initié depuis la DMZ vers le LAN est bloqué.
 
 Cette politique permet de respecter les principes de segmentation du réseau, d’exposition contrôlée des services et de moindre privilège.
+
 
