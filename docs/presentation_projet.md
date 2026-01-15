@@ -51,8 +51,9 @@ Le projet adopte une double approche pour garantir une sécurité maximale :
 
 ## Périmètre et limites
 
-Le projet se concentre volontairement sur des aspects fondamentaux des réseaux et de la cybersécurité. Certaines fonctionnalités avancées (haute disponibilité, cloud, SIEM, messagerie électronique) ne sont pas implémentées afin de conserver un périmètre réaliste et maîtrisé, en adéquation avec un projet académique de niveau licence/master.
+Le projet se concentre volontairement sur des aspects fondamentaux des réseaux et de la cybersécurité. Certaines fonctionnalités avancées (haute disponibilité, cloud, SIEM, messagerie électronique) ne sont pas implémentées afin de conserver un périmètre réaliste et maîtrisé, en adéquation avec un projet académique de niveau licence.
 
 > **Note technique :** L'intégralité de ce laboratoire est réalisée en environnement virtualisé, permettant une isolation totale avant le déploiement en production.
+
 
 
