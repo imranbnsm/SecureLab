@@ -14,7 +14,7 @@ Un pare-feu pfSense assure le routage, le filtrage des flux et la traduction d�
 ---
 Le diagramme ci-dessous illustre la segmentation réseau, les machines virtuelles déployées ainsi que les flux autorisés et interdits entre les différentes zones.
 
-![Diagramme Réseau SecureLab](Diagramme_Réseau_SecureLab.png)
+![Diagramme Réseau SecureLab](./images/Diagramme_Réseau_SecureLab.png)
 
 ---
 
