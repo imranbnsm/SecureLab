@@ -23,4 +23,4 @@ L’infrastructure repose sur une segmentation WAN / LAN / DMZ protégée par un
 - Firewalling
 
 ## 📚 Contexte
-Projet réalisé dans un cadre universitaire (Cycle Universitaire EFREI Paris) dans une optique de poursuite d’études en Master Réseaux & Sécurité.
+Projet réalisé dans un cadre universitaire (Cycle Ingénieur EFREI Paris) dans une optique de poursuite d’études en Master Réseaux & Sécurité.
