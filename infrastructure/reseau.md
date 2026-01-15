@@ -5,9 +5,9 @@
 L’ensemble de l’infrastructure SecureLab est déployé dans un environnement virtualisé à l’aide de VMware Workstation Pro.  
 Chaque zone réseau est isolée à l’aide de réseaux virtuels distincts.
 
----
-
 ![Interfaces réseau virtuelles](../docs/images/vmware_networks.png)
+
+---
 
 ## Plan d’adressage IP
 
@@ -17,9 +17,9 @@ Chaque zone réseau est isolée à l’aide de réseaux virtuels distincts.
 | DMZ | 192.168.20.0/24 | 192.168.20.1 |
 | WAN | DHCP | Fournie par l’hyperviseur |
 
----
+![Interfaces réseau virtuelles](../docs/images/pfsense_vm_network_adapters.png)
 
-![Interfaces réseau virtuelles](../docs/images/pfsense_vm_network_adapters.png.png)
+---
 
 ## Pare-feu pfSense
 
