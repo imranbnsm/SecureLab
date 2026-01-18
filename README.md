@@ -8,6 +8,7 @@ Le projet inclut une approche défensive (architecture, sécurisation) et offens
 - Concevoir une architecture réseau sécurisée
 - Déployer des services réseau (AD, Web)
 - Mettre en place un pare-feu et une segmentation réseau
+- Mise en œuvre d’une politique de filtrage réseau basée sur le principe du moindre privilège
 - Réaliser des attaques contrôlées
 - Produire un audit de sécurité
 
