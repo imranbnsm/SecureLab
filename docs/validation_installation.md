@@ -39,8 +39,6 @@ Résultat : succès.
 
 ![Test connectivité LAN -> Internet](../docs/images/test_ping_lan_dns.png)
 
-# FAIRE TEST VERS 8.8.8.8
-
 ---
 
 ### Pare-feu → LAN
