@@ -37,7 +37,7 @@ La résolution DNS a été validée via un ping vers un nom de domaine public.
 
 Résultat : succès.
 
-![Test connectivité LAN -> Internet](../docs/images/test_ping_lan_to_internet.png)
+![Test connectivité LAN -> Internet](../docs/images/test_ping_lan_dns.png)
 
 # FAIRE TEST VERS 8.8.8.8
 
