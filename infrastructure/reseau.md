@@ -44,4 +44,5 @@ Toutes les machines du LAN utilisent ce serveur pour résoudre les noms de domai
 - OU et groupes créés pour la gestion des utilisateurs et services
 
 ![IP du serveur AD](../docs/images/srv-ad_ipv4.png)
+
 ![Domain controllers](../docs/images/srv-ad_domain2.png)
