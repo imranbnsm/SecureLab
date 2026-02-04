@@ -1,7 +1,5 @@
 # Machines Virtuelles Déployées
 
----
-
 ## 1. Pare-feu
 
 Voir la page [firewall.md](../security/firewall.md) pour plus d'informations.
@@ -9,7 +7,6 @@ Voir la page [firewall.md](../security/firewall.md) pour plus d'informations.
 - **Nom** : pfSense Community Edition  
 - **Rôle** : Routage, filtrage, NAT, DHCP  
 
----
 
 ## 2. Poste Client LAN
 - **Système d'exploitation** : Ubuntu Linux  
@@ -56,7 +53,7 @@ Ce poste est utilisé pour valider l’accès au pare-feu et à Internet.
 
 ## 4. Machine Utilisateur Locale Windows 11
 - **Nom** : Windows 11 Professionnal Edition  
-- **Rôle** : Poste utilisateur de l'entreprise Technova  
+- **Rôle** : Poste utilisateur IT de l'entreprise Technova 
 - **Adresse IP** : Attribuée dynamiquement via DHCP  
 
 Nous installons tout d'abord la VM sur le sous-réseau LAN :
@@ -78,3 +75,19 @@ Nous configurons ensuite la machine pour qu'elle fasse partie du domaine Technov
 Nous pouvons ensuite nous connecter en tant qu'utilisateur créé au préalable sur AD, en changeant le mot de passe après la première connexion : 
 
 ![Première connexion Windows 11](../docs/images/windows_11_login_it_new_password.png)
+
+## 5. Machine Utilisateur Locale Windows 11
+- **Nom** : Windows 11 Professionnal Edition  
+- **Rôle** : Poste utilisateur RH de l'entreprise Technova 
+- **Adresse IP** : Attribuée dynamiquement via DHCP  
+
+Après avoir suivi les mêmes étapes d'installation que la VM précdente, nous nous connectons au domaine TECHNOVA via le compte utilisateur appartenant au groupe RH crée sur AD : 
+
+![Première connexion Windows 11](../docs/images/windows_11_login_rh.png)
+
+![Avertissement mot de passe](../docs/images/login_windows_11_rh_new_password.png)
+>La GPO mot de passe est appliquée sur les hôtes non administrateurs / SI
+
+![Message affiché connexion](../docs/images/windows_11_login_rh_message.png)
+>On se connecte ensuite en créant un mot de passe adéquat puis nous sommes avertis par un message.
+
